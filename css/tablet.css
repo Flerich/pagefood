@@ -16,7 +16,7 @@
 
 .header_container {
     background: radial-gradient( circle at 0.01%,transparent , #020202 60%),url(../assets/fotos/header_backgroubd.jpg);
-    background-position: -150px 0px,-113px -131px;
+    background-position: -150px 0px,-113px 50%;
     background-repeat: no-repeat;
     background-size: 160% , 150%;
 }
@@ -26,13 +26,20 @@
     height: 58px;
 }
 
+.cheft_space {
+    height: 380px;
+}
+
+
+
+
 
 @media (min-width: 470px) {
     .header_container {
         background: radial-gradient( circle at 37%,transparent -46% , #020202 80%),url(../assets/fotos/header_backgroubd.jpg);
         background-repeat: no-repeat;
-        background-size: 120%;
-        background-position: 0px 0px, -82px -130px;
+        background-size: 100%, 125%;
+        background-position: 0px 0px, -82px 50%;
     }
 
     .lower_header h1  { 
@@ -59,6 +66,9 @@
         margin: 10px 10px 0 auto;
         border-width: 0px;
     }
+    .cheft_space {
+        height: 422px;
+    }
 }
 
 
@@ -69,4 +79,13 @@
         background-size: cover;
         background-position: 0px 0px, 0px 50%;
     }
+    .main_platillos{
+        width: 100%;
+        position: relative;
+        background-image: linear-gradient(black 0.2%,transparent,transparent 40%) ,url(../assets/fotos/sheft_tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+
 }
