@@ -1,703 +1,701 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-html{
-    font-family: 'Inter', sans-serif;
-    font-size: 62.5%;
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
 }
-:root{
-    --brand_primary:#1C1B1B; 
-    --brand_secundary: #F4DFC8;
-    --brand_tertiary:#F4EAE0;
-    --brand_accent:#C7DCA7;
-    --greys_beige_dark:#A5947A;
-    --greys_beige_90:#C8B598;
-    --greys_beige_60: #E6D6BF;
-    --greys_beige_20: #F7EDDF;
-    --greys_beige_white: #FAF6F0;
-    --status_error:#860A35;
-    --status_success:#A3B763;
-    --white:#ffffff;
-}
-
-.headline_1{
-    font-size: 64px;
-    line-height: 72px;
-}
-.headline_2{
-    font-size: 56px;
-    line-height: 64px;
-}
-.headline_3{
-    font-size: 40px;
-    line-height: 48px;
-}
-.headline_4{
-    font-size: 32px;
-    line-height: 40px;
+:root {
+  --brand_primary: #1c1b1b;
+  --brand_secundary: #f4dfc8;
+  --brand_tertiary: #f4eae0;
+  --brand_accent: #c7dca7;
+  --greys_beige_dark: #a5947a;
+  --greys_beige_90: #c8b598;
+  --greys_beige_60: #e6d6bf;
+  --greys_beige_20: #f7eddf;
+  --greys_beige_white: #faf6f0;
+  --status_error: #860a35;
+  --status_success: #a3b763;
+  --white: #ffffff;
 }
 
-.Body_L{ 
-    font-size: 24px;
-    line-height: 32px;
+.headline_1 {
+  font-size: 64px;
+  line-height: 72px;
 }
-.Body_M{ 
-    font-size: 18px;
-    line-height: 24px;
+.headline_2 {
+  font-size: 56px;
+  line-height: 64px;
 }
-
-.Body_S{
-    font-size: 14px;
-    line-height: 16px;
+.headline_3 {
+  font-size: 40px;
+  line-height: 48px;
 }
-.Body_XS{
-    font-size: 11px;
-    line-height: 12px;
-}
-.regular{
-    font-weight:400 ;
-}
-.medium{
-    font-weight:500 ;
-}
-.semi_bolt{
-    font-weight:600 ;
-}
-.black{
-    font-weight:900 ;
+.headline_4 {
+  font-size: 32px;
+  line-height: 40px;
 }
 
-.header_container{
-    width: 100%;
-    height: 633px;
-    position: relative;
-    background: radial-gradient( circle at 0.01%,transparent , #020202 60%),url(../assets/fotos/header_backgroubd.jpg);
-    background-position: -150px 0px,-129px 50%;
-    background-repeat: no-repeat;
-    background-size: 200% , 190%;
-    background-color: black;
+.Body_L {
+  font-size: 24px;
+  line-height: 32px;
+}
+.Body_M {
+  font-size: 18px;
+  line-height: 24px;
 }
 
-.upper_header{
-    height: auto;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 5% 0px;
+.Body_S {
+  font-size: 14px;
+  line-height: 16px;
 }
-.logo_container{
-    height: auto;
-    width: 80px;
-    display: block;
+.Body_XS {
+  font-size: 11px;
+  line-height: 12px;
+}
+.regular {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semi_bolt {
+  font-weight: 600;
+}
+.black {
+  font-weight: 900;
+}
 
+.header_container {
+  width: 100%;
+  height: 633px;
+  position: relative;
+  background: radial-gradient(circle at 0.01%, transparent, #020202 60%),
+    url(../assets/fotos/header_backgroubd.jpg);
+  background-position: -150px 0px, -129px 50%;
+  background-repeat: no-repeat;
+  background-size: 200%, 190%;
+  background-color: black;
 }
-.logo_container span{
-    background-image: url(../assets/logos/Logo_s_white.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin: 0 3px;
-    display: block;
-    width: 74.28px;
-    height: 47px;  
+
+.upper_header {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 5% 0px;
 }
-.menu_container{
-    height: auto;
-    position: relative;
-    width: 40px;
+.logo_container {
+  height: auto;
+  width: 80px;
+  display: block;
 }
-.menu_logo{
-    background: transparent;
-    border: none;
-    background-image: url(../assets/icons/Menu_Hamburger_LG.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin: 0 3px;
-    display: block;
-    Width:24px;
-    Height:24px;
+.logo_container span {
+  background-image: url(../assets/logos/Logo_s_white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 3px;
+  display: block;
+  width: 74.28px;
+  height: 47px;
+}
+.menu_container {
+  height: auto;
+  position: relative;
+  width: 40px;
+}
+.menu_logo {
+  background: transparent;
+  border: none;
+  background-image: url(../assets/icons/Menu_Hamburger_LG.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 3px;
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 .menu_container:hover .header_menu {
-    display: block;
-   
+  display: block;
 }
-.header_menu{
-    display: none;
-    position: absolute;
-    width: 158px;
-    height: 224px;
-    top: 0px;
-    left: -120px;
-    z-index: 2;
-    list-style: none;
-    background-color: var(--brand_primary);
-    border-radius: 20px;
+.header_menu {
+  display: none;
+  position: absolute;
+  width: 158px;
+  height: 224px;
+  top: 0px;
+  left: -120px;
+  z-index: 2;
+  list-style: none;
+  background-color: var(--brand_primary);
+  border-radius: 20px;
 }
-.menu_button{
-    Width: 126px;
-    Height: 32px;
-    margin: 10px auto;
-    text-align: center;
-    border-radius: 15px;
-    padding-top: 8px;
-    border: 0.5px solid var(--greys_beige_white);
+.menu_button {
+  width: 126px;
+  height: 32px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 15px;
+  padding-top: 8px;
+  border: 0.5px solid var(--greys_beige_white);
 }
-.menu_button a{
-    text-decoration: none;
-    color: var(--greys_beige_white);
-}
-
-.lower_header{
-    width: 90%;
-    height: 216px;
-    position: absolute;
-    bottom: 3%;
-    right: 5%;
-}
-.lower_header h1{
-    color: var(--greys_beige_white);
-    text-align: center;
-    margin: 0 0 18px;
-}
-.lower_header p{
-    color: var(--brand_tertiary);
-    text-align: center;
-}
-.lower_header button{
-    display: block;
-    width: 147px;
-    height: 40px;
-    color: var(--brand_primary);
-    background-color: var(--brand_accent);
-    border-radius: 20px;
-    margin: 18px auto 0;
-    border-width: 0px;
-}
-.main_platillos{
-    width: 100%;
-    position: relative;
-    background-image: linear-gradient(black 0.2%,transparent,transparent 40%) ,url(../assets/fotos/sheft_mobil.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-.cheft_space{
-    width: 100%;
-    height: 350px;
-}
-.main_platillos_info{
-    color: var(--greys_beige_white);
-    height: 200px;
-    width: 288px;
-    margin: 0 auto 15px;
-}
-.main_platillos_info p{
-    color: var(--brand_tertiary);
-}
-.platillos{
-    width: 90%;
-    height: 360px;
-    min-width: 288px;
-
-}
-.food_card_container{
-    width: 100%;
-    height: 286px;
-    overflow-x: scroll;
-    margin-bottom: 10px;
-}
-.food_card_list{
-    width: 463px;
-    height: 286px;
-    margin-left:5% ;
-    display: flex;
-
-}
-.food_card{
-    width: 144px;
-    height: 286px;
-    margin-right: 10px;
-    border-radius: 10px;
-    position: relative;
-    
-}
-.food_card a{
-    color: var(--greys_beige_white);
-    position: absolute;
-    bottom: 10px;
-    left:15px;
-    display: block;
-    width: 111px;
-    height: 48px;
-    text-decoration: none;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.card_1{
-    background-image:linear-gradient(transparent,black), url(../assets/fotos/fruit_salad.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.card_2{
-    background-image:linear-gradient(transparent,black), url(../assets/fotos/lassagna.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.card_3{
-    background-image:linear-gradient(transparent,black), url(../assets/fotos/tarta_chocolate.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.cheft{
-    color: var(--brand_tertiary);
-    text-align: center;
-}
-.dish_popup{
-    position: absolute;
-    Width:250px;
-    Height: 400px;
-    top:120px;
-    left: 30px;
-    text-align: center;
-    border-radius: 20px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: var(--greys_beige_white);
-}
-.dish_popup h1{
-    width: 90%;
-    margin: 180px auto 0;
-}
-.dish_popup p{
-    width: 90%;
-    margin: 0 auto;
+.menu_button a {
+  text-decoration: none;
+  color: var(--greys_beige_white);
 }
 
-.dish_1{
-    display: none;
-    background-image:linear-gradient(transparent,black), url(../assets/fotos/fruit_salad.jpg);
+.lower_header {
+  width: 90%;
+  height: 216px;
+  position: absolute;
+  bottom: 3%;
+  right: 5%;
 }
-.dish_2{
-    display: none;
-    background-image:linear-gradient(transparent,black), url(../assets/fotos/lassagna.png);
+.lower_header h1 {
+  color: var(--greys_beige_white);
+  text-align: center;
+  margin: 0 0 18px;
 }
-.dish_3{
-    display: none;
-    background-image:linear-gradient(transparent,black), url(../assets/fotos/tarta_chocolate.jpg);
+.lower_header p {
+  color: var(--brand_tertiary);
+  text-align: center;
 }
-
-.card_1 a:hover .dish_1{
-    display: block;
+.lower_header button {
+  display: block;
+  width: 147px;
+  height: 40px;
+  color: var(--brand_primary);
+  background-color: var(--brand_accent);
+  border-radius: 20px;
+  margin: 18px auto 0;
+  border-width: 0px;
 }
-.card_2 a:hover .dish_2{
-    display: block;
+.main_platillos {
+  width: 100%;
+  position: relative;
+  background-image: linear-gradient(black 0.2%, transparent, transparent 40%),
+    url(../assets/fotos/sheft_mobil.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.card_3 a:hover .dish_3{
-    display: block;
+.cheft_space {
+  width: 100%;
+  height: 350px;
 }
-.main_marcas{
-    width: 100%;
-    height: 297px;
-    background-color: var(--greys_beige_white);
-    padding-top: 30px;
+.main_platillos_info {
+  color: var(--greys_beige_white);
+  height: 200px;
+  width: 288px;
+  margin: 0 auto 15px;
 }
-.main_marcas h1{
-    color: var(--greys_beige_dark);
-    text-align: center;
-    display: block;
-    width: 90%;
-    max-width: 1056px;
-    height: 64px;
-    margin: 0 auto 30px;
+.main_platillos_info p {
+  color: var(--brand_tertiary);
 }
-.marca_container{
-    width: 100%; 
-    height: 130px;
-    overflow-x: scroll;
+.platillos {
+  width: 90%;
+  height: 360px;
+  min-width: 288px;
 }
-.marca_list{
-    height: 130px;
-    width: 1056px;
-   
-    list-style: none;
-    display: flex;
-    margin: 0 auto;
+.food_card_container {
+  width: 100%;
+  height: 286px;
+  overflow-x: scroll;
+  margin-bottom: 10px;
 }
-.marca_card{
-    margin: auto;
-    display: block;
+.food_card_list {
+  width: 463px;
+  height: 286px;
+  margin-left: 5%;
+  display: flex;
 }
-.marca_1 img{
-    height:68px ;
-    width: 128px;
+.food_card {
+  width: 144px;
+  height: 286px;
+  margin-right: 10px;
+  border-radius: 10px;
+  position: relative;
 }
-.marca_2 img{
-    height:67px ;
-    width: 120px;
+.food_card a {
+  color: var(--greys_beige_white);
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  display: block;
+  width: 111px;
+  height: 48px;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.marca_3{
-    height:120px ;
-    width: 213px;
+.card_1 {
+  background-image: linear-gradient(transparent, black),
+    url(../assets/fotos/fruit_salad.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.marca_4{
-    height:130px ;
-    width: 130px;
+.card_2 {
+  background-image: linear-gradient(transparent, black),
+    url(../assets/fotos/lassagna.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.marca_5 img{
-    background-image:url(../assets/logos/polar.svg);
-    height:82px ;
-    width: 105px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.card_3 {
+  background-image: linear-gradient(transparent, black),
+    url(../assets/fotos/tarta_chocolate.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.main_reserva{
-    width: 100%;
-    position: relative;
-    height: auto;
-    min-height: 480px;
-    max-height: 724px;
-    background-image: url(../assets/fotos/interior_res.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.cheft {
+  color: var(--brand_tertiary);
+  text-align: center;
 }
-.back_black{
-    background-color: black;
-    position: absolute;
-    width: 100%;
-    height: 480px;
-    opacity: 0.8;
+.dish_popup {
+  position: absolute;
+  width: 250px;
+  height: 400px;
+  top: 120px;
+  left: 30px;
+  text-align: center;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--greys_beige_white);
 }
-.step_container{
-    position: absolute;
-    top: 0px;
-    z-index: 1;
-    width: auto;
-    height: auto;
-
+.dish_popup h1 {
+  width: 90%;
+  margin: 180px auto 0;
 }
-.step_1{
-    width: 90%;
-    min-width: 288px;
-    max-width: 500px;
-    height: auto;
-    margin: 20px auto 0;
-    color: var(--greys_beige_white);
-}
-.step_1 h1{
-    margin-top: 10px;
-}
-.form_1{
-    background-color: var(--brand_primary);
-    width: 288px;
-    height: 176px;
-    border-radius: 20px;
-    margin: 20px auto;
-    padding-top: 20px;
-}
-.form_1 div{
-    width: 256px;
-    height: 60px;
-    margin: auto;
-}
-.form_1 div label{
-    width: auto;
-    height: 16px;
-    color: var(--brand_tertiary);
-    display: block;
-    margin-top: 5px;
-}
-.form_1_info{
-    background: var(--brand_primary);
-    border-radius: 10px;
-    text-align: center;
-    height: auto;
-    padding: 10px 0; 
-}
-input[type="date"]::-webkit-calendar-picker-indicator{
-    width: 24px;
-    height: 24px;
-    background: url(../assets/icons/calendar_white.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 10px;
+.dish_popup p {
+  width: 90%;
+  margin: 0 auto;
 }
 
-
-.form_1 div input{
-    color: var(--brand_tertiary);
-    background-color: transparent;
-    Width:256px;
-    font-family: "inter";
-    Height:40px;
-    padding-left: 10px;
-    border: 0.5px solid var(--brand_tertiary) ;
-    border-radius: 10px;
-    margin: 5px 0;
+.dish_1 {
+  display: none;
+  background-image: linear-gradient(transparent, black),
+    url(../assets/fotos/fruit_salad.jpg);
 }
-.form_1 div select{
-    color: var(--brand_tertiary);
-    background-color: transparent;
-    Width:256px;
-    font-family: "inter";
-    Height:40px;
-    padding-left: 10px;
-    border: 0.5px solid var(--brand_tertiary) ;
-    border-radius: 10px;
-    margin: 5px 0;
+.dish_2 {
+  display: none;
+  background-image: linear-gradient(transparent, black),
+    url(../assets/fotos/lassagna.png);
 }
-#num_people{
-    width: 88px;
-}
-#num_people option{
-    background-color: var(--brand_primary);
-    border: 1px var(--greys_beige_white) solid ;
-}
-.step_1 button{
-    display: block;
-    width: 109px;
-    height: 40px;
-    color: var(--brand_primary);
-    background-color: var(--brand_accent);
-    border-radius: 20px;
-    margin: 10px auto 0;
-    border-width: 0px;
+.dish_3 {
+  display: none;
+  background-image: linear-gradient(transparent, black),
+    url(../assets/fotos/tarta_chocolate.jpg);
 }
 
+.card_1 a:hover .dish_1 {
+  display: block;
+}
+.card_2 a:hover .dish_2 {
+  display: block;
+}
+.card_3 a:hover .dish_3 {
+  display: block;
+}
+.main_marcas {
+  width: 100%;
+  height: 297px;
+  background-color: var(--greys_beige_white);
+  padding-top: 30px;
+}
+.main_marcas h1 {
+  color: var(--greys_beige_dark);
+  text-align: center;
+  display: block;
+  width: 90%;
+  max-width: 1056px;
+  height: 64px;
+  margin: 0 auto 30px;
+}
+.marca_container {
+  width: 100%;
+  height: 130px;
+  overflow-x: scroll;
+}
+.marca_list {
+  height: 130px;
+  width: 1056px;
 
-.main_contact{
-    background-image: url(../assets/fotos/mapa.png);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 586px;
-    background-position: 40% -275px;
-    text-align: center;
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
 }
-.contact_container{
-    position: absolute;
-    top:80px;
-    width: 100%;
-    height: 506px;
+.marca_card {
+  margin: auto;
+  display: block;
 }
-.main_contact .contact_container h1{
-    margin-bottom: 20px;
-    opacity: 1;
+.marca_1 img {
+  height: 68px;
+  width: 128px;
 }
-.contact_card{
-    background-color: var(--greys_beige_white);
-    height: 172px;
-    width: 247px;
-    margin: 0 auto;
-    padding-top: 10px;
-    box-shadow: 0px 1px 3px 1px #00000026 , 0px 1px 2px 0px #0000004D;
-    border-radius: 25px;   
+.marca_2 img {
+  height: 67px;
+  width: 120px;
 }
-.contact_card div{
-    display: flex;
-    width: 199px;
-    height: auto;
-    margin: 10px auto 0;
-    text-align: start;
+.marca_3 {
+  height: 120px;
+  width: 213px;
 }
-.contact_card div span{
-    height:24px ;
-    width: 24px;
-    margin: auto 5px auto 0;
+.marca_4 {
+  height: 130px;
+  width: 130px;
 }
-.main_contact div p{
-    max-width: 159px;
+.marca_5 img {
+  background-image: url(../assets/logos/polar.svg);
+  height: 82px;
+  width: 105px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.phone span{
-    background-image: url(../assets/icons/phone_Icon.svg);
+.main_reserva {
+  width: 100%;
+  position: relative;
+  height: auto;
+  min-height: 480px;
+  max-height: 724px;
+  background-image: url(../assets/fotos/interior_res.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.adress span{
-    background-image: url(../assets/icons/position_Icon.svg);
+.back_black {
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  opacity: 0.8;
 }
-.hours span{
-    background-image: url(../assets/icons/calendar_Icon.svg);
+.step_container {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  width: auto;
+  height: auto;
 }
-.hours{
-    height: 52px;
+.step_1 {
+  width: 90%;
+  min-width: 288px;
+  max-width: 500px;
+  height: auto;
+  margin: 20px auto 0;
+  color: var(--greys_beige_white);
 }
-.direction{
-    margin: 60px 0 0 38%;
-    width: 199px;
-    display: flex;
-    height: 24px;
+.step_1 h1 {
+  margin-top: 10px;
 }
-.direction span{
-    height:24px ;
-    width: 24px;
-    margin: auto 5px auto 0;
+.form_1 {
+  background-color: var(--brand_primary);
+  width: 288px;
+  height: 176px;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding-top: 20px;
 }
-.back_white{
-    background-color: white;
-    position: absolute;
-    width: 100%;
-    height: 586px;
-    opacity: 0.5;
+.form_1 div {
+  width: 256px;
+  height: 60px;
+  margin: auto;
 }
-.main_reviews{
-    width: 100%;
-    position: relative;
-    height: 480px;
-    background-image: url(../assets/fotos/diner_peopple.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.form_1 div label {
+  width: auto;
+  height: 16px;
+  color: var(--brand_tertiary);
+  display: block;
+  margin-top: 5px;
 }
-.reviews_container{
-    width: 100%;
-    z-index: 0;
-    position: absolute;
-    top: 50px;
-    height: 392px;
-    overflow-x: scroll;
-    overflow-y: hidden;
+.form_1_info {
+  background: var(--brand_primary);
+  border-radius: 10px;
+  text-align: center;
+  height: auto;
+  padding: 10px 0;
 }
-.reviews_list{
-    height: 392px;
-    width: 838px;
-    display: flex;
-    margin-left: 22px;
-    text-align: center;
+input[type="date"]::-webkit-calendar-picker-indicator {
+  width: 24px;
+  height: 24px;
+  background: url(../assets/icons/calendar_white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
 }
-.reviews_card{
-    height: 392px;
-    width: 250px;
-    background-color: var(--greys_beige_white);
-    border-radius: 20px;
-    margin-right: 22px;
-}
-.stars{
-    height: 24px;
-    display: block;
-    margin: 20px auto 10px;
-    width: 136px;
-    background-image: url(../assets/icons/stars.svg);
-}
-.reviews_card p{
-    display: block;
-    margin: auto;
-    width: 186px;
-    height: 160px;
-}
-.persone_info{
-    height: 112px;
-    width: 186px;
-    margin: 20px auto;
-}
-.face_foto{
-    height: 64px;
-    display: block;
-    margin: 20px auto 10px;
-    width: 64px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 
+.form_1 div input {
+  color: var(--brand_tertiary);
+  background-color: transparent;
+  width: 256px;
+  font-family: "inter";
+  height: 40px;
+  padding-left: 10px;
+  border: 0.5px solid var(--brand_tertiary);
+  border-radius: 10px;
+  margin: 5px 0;
 }
-.face_1{
-    background-image: url(../assets/fotos/persone_1.svg);
+.form_1 div select {
+  color: var(--brand_tertiary);
+  background-color: transparent;
+  width: 256px;
+  font-family: "inter";
+  height: 40px;
+  padding-left: 10px;
+  border: 0.5px solid var(--brand_tertiary);
+  border-radius: 10px;
+  margin: 5px 0;
 }
-.face_2{
-    background-image: url(../assets/fotos/persone_2.svg);
+#num_people {
+  width: 88px;
 }
-.face_3{
-    background-image: url(../assets/fotos/persone_3.svg);
+#num_people option {
+  background-color: var(--brand_primary);
+  border: 1px var(--greys_beige_white) solid;
 }
-footer{
-    width: 100%;
-    height: 677px;
-    background-color: var(--brand_accent);
+.step_1 button {
+  display: block;
+  width: 109px;
+  height: 40px;
+  color: var(--brand_primary);
+  background-color: var(--brand_accent);
+  border-radius: 20px;
+  margin: 10px auto 0;
+  border-width: 0px;
 }
-.footer_logos{
-    width: 288px;
-    height: 115px;
-    padding-top: 30px;
-    margin-left: 20px;
-    margin-bottom: 40px;
+
+.main_contact {
+  background-image: url(../assets/fotos/mapa.png);
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 586px;
+  background-position: 40% -275px;
+  text-align: center;
 }
-.footer_logos span{
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
+.contact_container {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  height: 506px;
 }
-.footer_main_logo{
-    width: 100px;
-    height: 45px;
-    margin-bottom: 10px;
-    background-image: url(../assets/logos/Logo_simple.svg); 
+.main_contact .contact_container h1 {
+  margin-bottom: 20px;
+  opacity: 1;
 }
-.facebook{
-    width: 24px;
-    height: 24px;
-    background-image: url(../assets/icons/facebook.svg); 
+.contact_card {
+  background-color: var(--greys_beige_white);
+  height: 172px;
+  width: 247px;
+  margin: 0 auto;
+  padding-top: 10px;
+  box-shadow: 0px 1px 3px 1px #00000026, 0px 1px 2px 0px #0000004d;
+  border-radius: 25px;
 }
-.youtube{
-    width: 24px;
-    height: 24px;
-    background-image: url(../assets/icons/youtube.svg); 
+.contact_card div {
+  display: flex;
+  width: 199px;
+  height: auto;
+  margin: 10px auto 0;
+  text-align: start;
 }
-.insta{
-    width: 24px;
-    height: 24px;
-    background-image: url(../assets/icons/insta.svg); 
+.contact_card div span {
+  height: 24px;
+  width: 24px;
+  margin: auto 5px auto 0;
 }
-.twitter{
-    width: 24px;
-    height: 24px;
-    background-image: url(../assets/icons/twitter.svg); 
+.main_contact div p {
+  max-width: 159px;
 }
-.footer_ancors{
-    margin: 0 20px;
-    width: 90%;
+.phone span {
+  background-image: url(../assets/icons/phone_Icon.svg);
 }
-.footer_upper div{
-    margin-bottom: 30px;
+.adress span {
+  background-image: url(../assets/icons/position_Icon.svg);
 }
-.footer_upper div h1{
-    margin-bottom: 20px;
+.hours span {
+  background-image: url(../assets/icons/calendar_Icon.svg);
 }
-.footer_upper div a{
-    text-decoration: none;
-    color: var(--brand_primary);
+.hours {
+  height: 52px;
 }
-.footer_subs{
-    text-align: center;
+.direction {
+  margin: 60px 0 0 38%;
+  width: 199px;
+  display: flex;
+  height: 24px;
 }
-.copi_right{
-    text-align: center;
-    width: 90%;
-    height: auto;
-    margin: 30px auto 0;
+.direction span {
+  height: 24px;
+  width: 24px;
+  margin: auto 5px auto 0;
 }
-.email{
-    background-color: transparent;
-    width:175px ;
-    height: 40px;
-    padding-left: 10px;
-    color: var(--brand_primary);
-    border-radius: 20px;
-    border: 0.5px solid #1C1B1B;
+.back_white {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 586px;
+  opacity: 0.5;
 }
-.sub_button{
-    Width:109px;
-    Height:36px;
-    color: var(--greys_beige_white);
-    background-color: var(--brand_primary);
-    border-radius: 20px;
-    border: 0.5px solid #1C1B1B;
-    margin-left: 4px;
+.main_reviews {
+  width: 100%;
+  position: relative;
+  height: 480px;
+  background-image: url(../assets/fotos/diner_peopple.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.reviews_container {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  top: 50px;
+  height: 392px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.reviews_list {
+  height: 392px;
+  width: 838px;
+  display: flex;
+  margin-left: 22px;
+  text-align: center;
+}
+.reviews_card {
+  height: 392px;
+  width: 250px;
+  background-color: var(--greys_beige_white);
+  border-radius: 20px;
+  margin-right: 22px;
+}
+.stars {
+  height: 24px;
+  display: block;
+  margin: 20px auto 10px;
+  width: 136px;
+  background-image: url(../assets/icons/stars.svg);
+}
+.reviews_card p {
+  display: block;
+  margin: auto;
+  width: 186px;
+  height: 160px;
+}
+.persone_info {
+  height: 112px;
+  width: 186px;
+  margin: 20px auto;
+}
+.face_foto {
+  height: 64px;
+  display: block;
+  margin: 20px auto 10px;
+  width: 64px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.face_1 {
+  background-image: url(../assets/fotos/persone_1.svg);
+}
+.face_2 {
+  background-image: url(../assets/fotos/persone_2.svg);
+}
+.face_3 {
+  background-image: url(../assets/fotos/persone_3.svg);
+}
+footer {
+  width: 100%;
+  height: 677px;
+  background-color: var(--brand_accent);
+}
+.footer_logos {
+  width: 288px;
+  height: 115px;
+  padding-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.footer_logos span {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer_main_logo {
+  width: 100px;
+  height: 45px;
+  margin-bottom: 10px;
+  background-image: url(../assets/logos/Logo_simple.svg);
+}
+.facebook {
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/icons/facebook.svg);
+}
+.youtube {
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/icons/youtube.svg);
+}
+.insta {
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/icons/insta.svg);
+}
+.twitter {
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/icons/twitter.svg);
+}
+.footer_ancors {
+  margin: 0 20px;
+  width: 90%;
+}
+.footer_upper div {
+  margin-bottom: 30px;
+}
+.footer_upper div h1 {
+  margin-bottom: 20px;
+}
+.footer_upper div a {
+  text-decoration: none;
+  color: var(--brand_primary);
+}
+.footer_subs {
+  text-align: center;
+}
+.copi_right {
+  text-align: center;
+  width: 90%;
+  height: auto;
+  margin: 30px auto 0;
+}
+.email {
+  background-color: transparent;
+  width: 175px;
+  height: 40px;
+  padding-left: 10px;
+  color: var(--brand_primary);
+  border-radius: 20px;
+  border: 0.5px solid #1c1b1b;
+}
+.sub_button {
+  width: 109px;
+  height: 36px;
+  color: var(--greys_beige_white);
+  background-color: var(--brand_primary);
+  border-radius: 20px;
+  border: 0.5px solid #1c1b1b;
+  margin-left: 4px;
 }
